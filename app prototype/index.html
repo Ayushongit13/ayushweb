@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Commission-Based Marketplace</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Marketplace</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to ayush enterprises Marketplace</h1>
+        <p>Buy and sell services with us!</p>
+        <a href="#register" class="cta">Get Started</a>
+        <input type="text" id="search" placeholder="Search for services...">
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Marketplace</h2>
+        <p>Connect buyers and sellers in a seamless experience.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Available Services</h2>
+        <div class="service-list" id="service-list">
+            <!-- Services will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <h2>Create an Account</h2>
+        <form id="registration-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="login" class="login">
+        <h2>Login to Your Account</h2>
+        <form id="login-form">
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
